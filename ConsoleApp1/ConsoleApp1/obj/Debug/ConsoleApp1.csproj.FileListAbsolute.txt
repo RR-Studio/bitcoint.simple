@@ -1,0 +1,14 @@
+c:\users\astro-m\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+c:\users\astro-m\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+c:\users\astro-m\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+c:\users\astro-m\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\NBitcoin.dll
+c:\users\astro-m\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+c:\users\astro-m\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\NBitcoin.pdb
+c:\users\astro-m\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\NBitcoin.xml
+c:\users\astro-m\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+c:\users\astro-m\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+c:\users\astro-m\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+c:\users\astro-m\documents\visual studio 2017\Projects\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\astro-m\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\QBitNinja.Client.dll
+C:\Users\astro-m\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\QBitNinja.Client.pdb
+C:\Users\astro-m\Documents\Visual Studio 2017\Projects\ConsoleApp1\ConsoleApp1\bin\Debug\QBitNinja.Client.dll.config

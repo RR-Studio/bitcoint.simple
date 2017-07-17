@@ -1,0 +1,45 @@
+SRCSRV: ini ------------------------------------------------
+VERSION=2
+SRCSRV: variables ------------------------------------------
+SRCSRVVERCTRL=https
+SRCSRVTRG=https://raw.github.com/QBitNinja/QBitNinja/46c6eea0ac309917eb2b21e5520ee55e6658a071/%var2%
+SRCSRV: source files ---------------------------------------
+E:\Sources\rapidbase\QBitNinja\CompressionHandler.cs*QBitNinja/CompressionHandler.cs
+E:\Sources\rapidbase\QBitNinja\Compressors.cs*QBitNinja/Compressors.cs
+E:\Sources\rapidbase\QBitNinja\JsonConverters\BalanceLocatorJsonConverter.cs*QBitNinja/JsonConverters/BalanceLocatorJsonConverter.cs
+E:\Sources\rapidbase\QBitNinja\JsonConverters\Base58JsonConverter.cs*QBitNinja/JsonConverters/Base58JsonConverter.cs
+E:\Sources\rapidbase\QBitNinja\JsonConverters\BitcoinSerializableJsonConverter.cs*QBitNinja/JsonConverters/BitcoinSerializableJsonConverter.cs
+E:\Sources\rapidbase\QBitNinja\JsonConverters\CoinJsonConverter.cs*QBitNinja/JsonConverters/CoinJsonConverter.cs
+E:\Sources\rapidbase\QBitNinja\JsonConverters\EnumAliasJsonConverter.cs*QBitNinja/JsonConverters/EnumAliasJsonConverter.cs
+E:\Sources\rapidbase\QBitNinja\JsonConverters\EnumTypeJsonConverter.cs*QBitNinja/JsonConverters/EnumTypeJsonConverter.cs
+E:\Sources\rapidbase\QBitNinja\JsonConverters\JsonObjectException.cs*QBitNinja/JsonConverters/JsonObjectException.cs
+E:\Sources\rapidbase\QBitNinja\JsonConverters\KeyPathJsonConverter.cs*QBitNinja/JsonConverters/KeyPathJsonConverter.cs
+E:\Sources\rapidbase\QBitNinja\JsonConverters\MoneyJsonConverter.cs*QBitNinja/JsonConverters/MoneyJsonConverter.cs
+E:\Sources\rapidbase\QBitNinja\JsonConverters\NetworkJsonConverter.cs*QBitNinja/JsonConverters/NetworkJsonConverter.cs
+E:\Sources\rapidbase\QBitNinja\JsonConverters\ScriptJsonConverter.cs*QBitNinja/JsonConverters/ScriptJsonConverter.cs
+E:\Sources\rapidbase\QBitNinja\JsonConverters\UIntJsonConverter.cs*QBitNinja/JsonConverters/UIntJsonConverter.cs
+E:\Sources\rapidbase\QBitNinja\Models\BalanceModel.cs*QBitNinja/Models/BalanceModel.cs
+E:\Sources\rapidbase\QBitNinja\Models\BalanceSelector.cs*QBitNinja/Models/BalanceSelector.cs
+E:\Sources\rapidbase\QBitNinja\Models\BlockFeature.cs*QBitNinja/Models/BlockFeature.cs
+E:\Sources\rapidbase\QBitNinja\Models\BroadcastResponse.cs*QBitNinja/Models/BroadcastResponse.cs
+E:\Sources\rapidbase\QBitNinja\Models\ChainStatus.cs*QBitNinja/Models/ChainStatus.cs
+E:\Sources\rapidbase\QBitNinja\Models\DataFormat.cs*QBitNinja/Models/DataFormat.cs
+E:\Sources\rapidbase\QBitNinja\Models\ExtendedBlockInformation.cs*QBitNinja/Models/ExtendedBlockInformation.cs
+E:\Sources\rapidbase\QBitNinja\Models\GetBlockResponse.cs*QBitNinja/Models/GetBlockResponse.cs
+E:\Sources\rapidbase\QBitNinja\Models\GetTransactionResponse.cs*QBitNinja/Models/GetTransactionResponse.cs
+E:\Sources\rapidbase\QBitNinja\Models\HelpModel.cs*QBitNinja/Models/HelpModel.cs
+E:\Sources\rapidbase\QBitNinja\Models\KeySet.cs*QBitNinja/Models/KeySet.cs
+E:\Sources\rapidbase\QBitNinja\Models\NewBlockNotificationData.cs*QBitNinja/Models/NewBlockNotificationData.cs
+E:\Sources\rapidbase\QBitNinja\Models\NewBlockSubscription.cs*QBitNinja/Models/NewBlockSubscription.cs
+E:\Sources\rapidbase\QBitNinja\Models\NewTransactionNotificationData.cs*QBitNinja/Models/NewTransactionNotificationData.cs
+E:\Sources\rapidbase\QBitNinja\Models\NewTransactionSubscription.cs*QBitNinja/Models/NewTransactionSubscription.cs
+E:\Sources\rapidbase\QBitNinja\Models\NotificationData.cs*QBitNinja/Models/NotificationData.cs
+E:\Sources\rapidbase\QBitNinja\Models\QBitNinjaException.cs*QBitNinja/Models/QBitNinjaException.cs
+E:\Sources\rapidbase\QBitNinja\Models\Subscription.cs*QBitNinja/Models/Subscription.cs
+E:\Sources\rapidbase\QBitNinja\Models\VersionStatsResponse.cs*QBitNinja/Models/VersionStatsResponse.cs
+E:\Sources\rapidbase\QBitNinja\Models\WalletModel.cs*QBitNinja/Models/WalletModel.cs
+E:\Sources\rapidbase\QBitNinja\Models\WhatIsItModels.cs*QBitNinja/Models/WhatIsItModels.cs
+E:\Sources\rapidbase\QBitNinja\Properties\AssemblyInfo.cs*QBitNinja/Properties/AssemblyInfo.cs
+E:\Sources\rapidbase\QBitNinja\Serializer.cs*QBitNinja/Serializer.cs
+E:\Sources\rapidbase\QBitNinja.Client\QBitNinjaClient.cs*QBitNinja.Client/QBitNinjaClient.cs
+SRCSRV: end ------------------------------------------------
