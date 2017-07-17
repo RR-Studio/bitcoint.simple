@@ -15,7 +15,7 @@ namespace ConsoleApp1
     /// </summary>
     public class AppTest
     {
-        public static void Transaction1()
+        public static void Transaction1(string connect)
         {
             var secret = new BitcoinSecret("cQMQ1QMAv7yrt5EAW4Noc7B13wZDtu16iqJLpunmHfLdJb6u6F8N", Network.TestNet);
             var key = secret.PrivateKey;
@@ -38,25 +38,29 @@ namespace ConsoleApp1
             tx.Sign(secret, false);
             Console.WriteLine("GetHash {0}", tx.GetHash());
 
-            var node = Node.Connect(Network.TestNet, "107.180.70.52:18333");
+            var node = Node.Connect(Network.TestNet, connect);
             node.MessageReceived += NodeOnMessageReceived;
             node.VersionHandshake();
             node.SendMessage(new InvPayload(tx));
             node.SendMessage(new TxPayload(tx));
-            Console.Read();
-            Console.WriteLine("Disconet");
-            node.Disconnect();
+            node.PingPong();
+            //Console.Read();
+            //Console.WriteLine("Disconet");
+            //node.Disconnect();
         }
 
         private static void NodeOnMessageReceived(Node node1, IncomingMessage message)
         {
-            Console.WriteLine(message.Message);
+            
+            Console.WriteLine("{0} {1}", node1, message.Message);
         }
+
+     
 
         /// <summary>
         /// транзакция с использованием библиотеки QBitNinjaClient
         /// </summary>
-        public static void Transaction2()
+        public static void Transaction3()
         {
             var secret = new BitcoinSecret("cQMQ1QMAv7yrt5EAW4Noc7B13wZDtu16iqJLpunmHfLdJb6u6F8N", Network.TestNet);
             var key = secret.PrivateKey;

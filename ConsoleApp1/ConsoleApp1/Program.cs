@@ -21,12 +21,30 @@ namespace ConsoleApp1
 {
     class Program
     {
+        private static List<string> Nodes;
         static void Main(string[] args)
         {
-          AppTest.Transaction1();
+            //  AppTest.Transaction1();
+            Nodes = new List<string>();
+            var app = new SearchNodes();
+            app.OnChangeNodesCollection += OnChangeNodesCollection;
+            app.Search();
+            Console.Read();
         }
 
-     
-
+        private static void OnChangeNodesCollection(object sender, NodesCollection nodesCollection)
+        {
+           // Console.Clear();
+            foreach (var item in nodesCollection)
+            {
+                if (Nodes.All(_ => _ != $"{item.RemoteSocketAddress.MapToIPv4()}:{item.RemoteSocketPort}"))
+                {
+                    Nodes.Add($"{item.RemoteSocketAddress.MapToIPv4()}:{item.RemoteSocketPort}");
+                    Console.WriteLine("{0}:{1}",item.RemoteSocketAddress.MapToIPv4(), item.RemoteSocketPort);
+                    AppTest.Transaction1($"{item.RemoteSocketAddress.MapToIPv4()}:{item.RemoteSocketPort}");
+                    
+                }
+            }
+        }
     }
 }
